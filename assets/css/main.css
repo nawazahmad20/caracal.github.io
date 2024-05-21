@@ -520,7 +520,8 @@ h6 {
 .footer .copyright {
   padding-top: 25px;
   padding-bottom: 25px;
-  background-color: color-mix(in srgb, var(--default-color), transparent 95%);
+  background-color: color-mix(in srgb, var(--default-color), transparent 100%)
+   /* color-mix(in srgb, var(--default-color), transparent 95%); */
 }
 
 .footer .copyright p {
@@ -839,7 +840,7 @@ section,
 # About Section
 --------------------------------------------------------------*/
 .about {
-  --background-color: #f4f4f4;
+  --background-color: #ffffff;
 }
 
 .about .content h3 {
@@ -1516,7 +1517,7 @@ section,
 # Team Section
 --------------------------------------------------------------*/
 .team {
-  --background-color: #f4f4f4;
+  --background-color: #ffffff;
 }
 
 .team .member {
